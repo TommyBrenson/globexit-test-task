@@ -1,0 +1,38 @@
+@import '../../styles/variables';
+
+.container {
+    padding: 10px 25px;
+    display: flex;
+    align-items: center;
+    border: 1px solid $blueberry;
+    border-radius: 30px;
+
+    transition: all 0.2s ease;
+
+    &:hover {
+        border-color: $purple;
+    }
+}
+
+.input {
+    all: unset;
+    display: block;
+    width: 100%;
+}
+
+.search_button {
+    all: unset;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.search_icon {
+    fill: $blueberry;
+
+    &:hover {
+        fill: $purple;
+    }
+
+    transition: all 0.1s ease-in;
+}

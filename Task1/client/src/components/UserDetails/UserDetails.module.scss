@@ -1,0 +1,60 @@
+@import '../../styles/variables';
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+    width: 500px;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: white;
+    padding-bottom: 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close_icon {
+    align-self: flex-end;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.user_name {
+    display: block;
+    margin: 0;
+    line-height: 1em;
+}
+
+.info_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    .details_label {
+        flex: 2;
+    }
+
+    .details_text {
+        flex: 3;
+    }
+}
+
+.details_field {
+    display: flex;
+    font-size: 0.85em;
+
+    .details_text {
+        color: $asphalt;
+    }
+}
+
+.extra_info {
+    .details_field {
+        flex-direction: column;
+    }
+}

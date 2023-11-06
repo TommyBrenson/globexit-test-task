@@ -1,0 +1,45 @@
+@import "../../styles/variables";
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 370px;
+    height: 310px;
+    box-shadow: 0px 0px 20px 0px #0000001A;
+    border-radius: 16px;
+    padding: 12px 30px;
+}
+
+.info_details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 250px;
+}
+
+.details_field {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-width: 270px;
+    word-break: break-all;
+
+    svg {
+        color: $purple;
+        font-size: 1.4em;
+    }
+
+    span {
+        display: block;
+        line-height: 1em;
+        color: $asphalt;
+        font-size: 0.85em;
+    }
+}
+
+.info_name {
+    display: block;
+    line-height: 0;
+    cursor: pointer;
+}
